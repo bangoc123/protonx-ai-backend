@@ -1,0 +1,28 @@
+{
+  "name": "ai-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env ENV=dev nodemon -r esm app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.0.0",
+    "express-validator": "^6.13.0",
+    "openai": "^3.3.0",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "nodemon": "^1.19.4",
+    "esm": "^3.2.25"
+  }
+}
